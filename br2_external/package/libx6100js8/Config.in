@@ -1,6 +1,5 @@
 config BR2_PACKAGE_LIBX6100JS8
 	bool "libx6100js8"
-	depends on BR2_LINUX_KERNEL
 	help
 	  JS8 protocol engine for the Xiegu X6100. Provides the
 	  encoder side (libx6100js8.so) of the JS8 mode, used by
